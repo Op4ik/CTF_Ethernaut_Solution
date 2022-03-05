@@ -1,1 +1,1 @@
-CTF_Ethernaut_Solution
+# Ethernaut Solution

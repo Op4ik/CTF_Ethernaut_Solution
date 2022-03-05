@@ -21,7 +21,7 @@ def main():
     tx = contract.contribute({"from": player, "value": web3.Web3.toWei("0.0001", "ether")})
     tx.wait(1)
 
-    tx = contract.nonExistentFunction({"from": player, "value": web3.Web3.toWei("0.0001", "ether")})
+    tx = contract.sendTransaction({"from": player, "value": web3.Web3.toWei("0.0001", "ether")})
     tx.wait(1)
 
     tx = contract.withdraw({"from": player})

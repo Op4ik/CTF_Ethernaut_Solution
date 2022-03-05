@@ -8,7 +8,7 @@ interface IFallback {
 
     function withdraw() external;
 
-    function nonExistentFunction() external;
+    function sendTransaction() external;
 
     receive() external payable;
 }

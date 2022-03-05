@@ -2,3 +2,4 @@
 .DS_Store
 build
 .hypothesis
+scripts/__pycache__

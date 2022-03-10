@@ -5,7 +5,7 @@ from brownie import (
     interface,
     Contract,
 )
-from scripts.helpful_scripts import (
+from scripts.helper import (
     get_account,
     get_new_instance,
     submit_instance,
